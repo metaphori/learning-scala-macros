@@ -2,7 +2,7 @@ package sketch
 
 @main def helloSketch: Unit = 
   val input = 4
-  println(s"Triple of ${input} is  " + triple()(input))
+  println(s"Triple of ${input} is " + triple()(input))
 
 def tripleSketch(x: Int) = { // sketch
   val h: Int = ???
